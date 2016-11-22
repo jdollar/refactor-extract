@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle refactor-extract",
+        "command": "refactor-extract:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "refactor-extract",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "refactor-extract:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
